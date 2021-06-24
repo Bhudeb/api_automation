@@ -22,7 +22,7 @@
 							"",
 							"",
 							"pm.test(\"Response Time test\", function () {",
-							"    pm.expect(pm.response.responseTime).to.lessThan(300)",
+							"    pm.expect(pm.response.responseTime).to.lessThan(500)",
 							"});",
 							"",
 							"var responseJson = pm.response.json();",
